@@ -1,6 +1,5 @@
-/* @import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap); */
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,500,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Yellowtail&display=swap); 
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap); 
 
 body {
 margin: 0% 10% ;
@@ -10,15 +9,16 @@ margin: 0% 10% ;
 .title {
     display: inline-block;
     color: #19191a;
-    font-size: 29px;
-    font-family: Raleway;
+    font-size: 38px;
+    font-family: Yellowtail;
     font-style: italic;
+    font-weight: 800;
 }
 
 .below-title {
     font-size: 12px;
     padding-top: 6px;
-    color: #474648;
+    color: #a59b9b;
     display: inline;
     /* float: left; */
 }
@@ -26,7 +26,7 @@ margin: 0% 10% ;
 
 .my-header {
     background-color: #ffffff;    
-    padding: 22px 0px;
+    padding: 32px 0px 0px 0px;
     position: sticky;
     top: 0;
     height: 78px;
@@ -37,6 +37,7 @@ margin: 0% 10% ;
 }
   
 .icon-bar {
+    margin-top: -2.5%;
     background-color: rgb(255, 255, 255);
     float: right;
     clear: right;
@@ -45,7 +46,10 @@ margin: 0% 10% ;
     /* margin: -13px 0px 3px 4px; */
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 16px;
+    padding: 6px;
+    background: #474648;
+
 }
 
 
@@ -53,32 +57,10 @@ margin: 0% 10% ;
         background-color: #000;
       }
       
-      .facebook {
-        background: #474648;
-       
+      .pinterest {
+        margin-right: 11px;
       }
       
-      .twitter {
-        background: #474648;
-        
-      }
-      
-      .google {
-        background: #474648;
-      
-      }
-      
-      .linkedin {
-        background: #474648;
-       
-      }
-      
-      .youtube {
-        background: #474648;
-       
-      }
-      
-
       img {
         float: left;
         margin-right: 1%;
@@ -111,7 +93,6 @@ margin: 0% 10% ;
     img.print {
         float: right;
         width: 17px;
-        /* clear: left; */
     }
 
     section.section3 {
@@ -146,26 +127,25 @@ margin: 0% 10% ;
     }
     form.form1 {
         display: inline-block;
-        font-size: 22px;
-        font-family: cursive;
-        margin-right: 18%;
-        line-height: 38px;
+    font-size: 32px;
+    font-family: 'Patrick Hand';
+    margin-right: 12%;
+    line-height: 38px;
 
 
     }
     form.form2 {
         display: inline-block;
-        font-size: 22px;
-        font-family: cursive;
+        font-size: 32px;
+        font-family: 'Patrick Hand';
         line-height: 38px;
-
     }
     div.checklist{
         background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d3/master/class-10/lab-a/lab-assets/list-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 42px 0 0 79px;
-        margin: 4% 0 7% 0;
+        padding: 45px 0 67px 77px;
+    margin: 4% 0 7% 0;
 
     }
 .checked{
@@ -224,4 +204,11 @@ footer {
     border-width: 2px;
     padding-top: 55px;
     padding-bottom: 70px;
+    font-size: 22px;
+}
+
+img.the-logo {
+    margin-left: 48%;
+    margin-top: -2%;
+    
 }
